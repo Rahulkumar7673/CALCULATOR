@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono&family=Montserrat:wght@300&family=Mooli&family=Roboto:ital,wght@0,400;0,500;1,400&family=Skranji&family=Source+Code+Pro:ital@1&family=Ubuntu:ital@1&family=Young+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+.conatiner{
+   
+    border: 2px solid rgb(145, 49, 49);
+    padding: 20px;
+    border-radius: 5px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(20, 8, 247, 0.658);
+
+}
+.screen{
+    width:320px ;
+    border: none;
+    padding: 24px; ;
+    margin: 10px;
+    text-align: right;
+    background: transparent;
+    font-size: 40px;
+    cursor: pointer;
+    color: white;
+
+}
+.screen{
+    color: white;
+
+}
+button:hover {
+    background-color: rgb(24, 16, 16);
+    width: 61px;
+    height: 61px;
+    color: rgb(47, 212, 138);
+  }
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    cursor: pointer;
+    color: white;
+    box-shadow:  -8px -8px 15px rgba(143, 15, 212, 0.6);
+    font-size: 20px;
+}
+
+.operator{
+    color:  #00e600;
+}
+.equalbtn{
+    background-color: rgb(0, 30, 255);
+
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+    <div class="conatiner">
+        <div class="screen" id="screen">0</div>
+        <div>
+        <button onclick="clearScreen()" class="btton operator">AC</button>
+        <button onclick="deletePriv()" class="btton operator">Del</button>
+        <button onclick="appendToScreen('%')" class="btton operator">%</button>
+        <button onclick="operation('/')" class="btton operator">/</button>
+            
+            </div>
+            <div>
+                <button onclick="appendToScreen('7')" class="button">7</button>
+                <button onclick="appendToScreen('8')" class="button">8</button>
+                <button onclick="appendToScreen('9')" class="button">9</button>
+                <button onclick="operation('*')" class="button operator">*</button>
+            </div>
+            <div>
+                <button onclick="appendToScreen('4')" class="button">4</button>
+                <button onclick="appendToScreen('5')" class="button">5</button>
+                <button onclick="appendToScreen('6')" class="button">6</button>
+                <button onclick="operation('-')" class="button operator">-</button>
+            </div>
+            <div>
+                <button onclick="appendToScreen('1')" class="button">1</button>
+                <button onclick="appendToScreen('2')" class="button">2</button>
+                <button onclick="appendToScreen('3')" class="button">3</button>
+                <button onclick="operation('+')" class="button operator">+</button>
+            </div>
+            <div>
+         <button onclick="appendToScreen('00')" class="button">00</button>
+        <button onclick="appendToScreen('0')" class="button">0</button>
+        <button onclick="appendToScreen('.')" class="button">.</button>
+        <button onclick="calculate()" class="button equalbtn">=</button>
+       
+        </div>
+    </div >
+    <script src="script.js"></script>
+</body>
+</html>
